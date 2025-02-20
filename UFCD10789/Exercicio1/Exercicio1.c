@@ -2,11 +2,17 @@
 
 int main(){
 
-    int num = 0;
-    for(int i= 0; i<10; i++){
-        num+=2;
-        printf("Num = %d, i = %d", num, i);
-        printf("aqui1FOR");
-    }
+    int segundos;
+    printf("Insira o tempo em segundos: \n");
+    scanf("%d", &segundos);
+
+    int minutos = segundos/60;
+    segundos %= 60;
+    int horas = minutos/60;
+    minutos %= 60;
+    horas %= 24;
+
+    printf("O seu tempo foi %d horas %d minutos %d segundos", horas, minutos, segundos);
     return 0;
+
 }
