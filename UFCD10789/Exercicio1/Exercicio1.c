@@ -1,6 +1,12 @@
 #include <stdio.h>
+
 int main(){
 
-    printf("Hello World");
+    int num = 0;
+    for(int i= 0; i<10; i++){
+        num+=2;
+        printf("Num = %d, i = %d", num, i);
+        printf("aqui1FOR");
+    }
     return 0;
 }
