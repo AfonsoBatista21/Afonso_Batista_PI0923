@@ -2,7 +2,7 @@
 
 int main(){
 
-    int segundos;
+    int segundos = 0;
     printf("Insira o tempo em segundos: \n");
     scanf("%d", &segundos);
 
