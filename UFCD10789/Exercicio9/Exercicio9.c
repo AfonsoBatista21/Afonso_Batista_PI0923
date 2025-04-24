@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int mes;
+    int mes=0;
 
 
-    printf("Insira um número de 1 a 12 para saber que mes e que e: ");
+    printf("Insira um nÃºmero de 1 a 12 para saber que mes e que e: ");
     scanf("%d", &mes);
 
 
@@ -16,7 +16,7 @@ int main() {
             printf("Fevereiro\n");
             break;
         case 3:
-            printf("Março\n");
+            printf("MarÃ§o\n");
             break;
         case 4:
             printf("Abril\n");
@@ -46,7 +46,7 @@ int main() {
             printf("Dezembro\n");
             break;
         default:
-            printf("Número inválido! O mês deve estar entre 1 e 12.\n");
+            printf("NÃºmero invÃ¡lido! O mÃªs deve estar entre 1 e 12.\n");
     }
 
     return 0;
