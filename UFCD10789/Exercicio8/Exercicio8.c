@@ -2,7 +2,7 @@
 
 int main() {
     float notas[10];
-    float soma = 0, media;
+    float soma = 0, media=0;
     int alunos_acima_da_media = 0;
 
 
