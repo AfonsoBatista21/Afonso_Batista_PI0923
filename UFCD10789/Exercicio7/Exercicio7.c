@@ -2,7 +2,7 @@
 
 int main(){
 
-    int nota1, nota2, nota3, media;
+    int nota1=0, nota2=0, nota3=0, media=0;
 
     printf("Insira a primeira nota de 0 a 10: ");
     scanf("%d", &nota1);
