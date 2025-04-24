@@ -1,6 +1,6 @@
 i= 1
  
-while i<=30:
+while i<=60:
     if i %2 == 0:
         print("O numero",i,"é par")
  
