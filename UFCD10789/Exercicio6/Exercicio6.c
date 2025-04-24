@@ -2,7 +2,7 @@
 
 int main() {
     char cliente[100];
-    float valor_compra, desconto, apagar;
+    float valor_compra=0, desconto=0, apagar=0;
 
 
     printf("Digite o nome do cliente: ");
